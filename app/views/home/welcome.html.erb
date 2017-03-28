@@ -10,9 +10,4 @@
 <p><%=link_to'Accedi',new_user_session_path%></p>
 <p><%=link_to'Registrati',new_user_registration_path%></p>
 
-<h1>Home#welcome</h1>
-<p>Find me in app/views/home/welcome.html.erb</p>
-<% if !current_user.nil? %>
-<%=    "benvenuto " + current_user.email %>
-
 <% end %>

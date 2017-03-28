@@ -8,7 +8,7 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
 
   # config.secret_key = 'f3cfac8878f4d36aa2c46dcab4d5b92943225b14fb2b8fc7e3b8ebad122449f7ec4ebab98d4ca6a18d48c962834e0b17956893ab9a2a6aefe37f6d719c5f6087'
-=======
+
   # config.secret_key = 'dc4a242c237ec4085efce3544393ace625b61eef8d17397239221928840d33b83ba9a79b0a022a807ba7581562d077001b87f75f59578869c010ef3c20deaa5d'
 
 
