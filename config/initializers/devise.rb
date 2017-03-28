@@ -9,7 +9,6 @@ Devise.setup do |config|
 
   # config.secret_key = 'f3cfac8878f4d36aa2c46dcab4d5b92943225b14fb2b8fc7e3b8ebad122449f7ec4ebab98d4ca6a18d48c962834e0b17956893ab9a2a6aefe37f6d719c5f6087'
 
-  # config.secret_key = 'dc4a242c237ec4085efce3544393ace625b61eef8d17397239221928840d33b83ba9a79b0a022a807ba7581562d077001b87f75f59578869c010ef3c20deaa5d'
 
 
   # ==> Mailer Configuration
@@ -115,7 +114,6 @@ Devise.setup do |config|
 
   # config.pepper = '4a5716b882716a3f8f32897be8afa9be0c8853d064a42e1938ac8bb69399176c71681cff43eb1363548620d6535bb3c7aec8f58aa72f3e193bd5eea8d7a09435'
 
-  # config.pepper = 'd87fdf4e87ac896f846c2b70a784a1487c35d7e1498203168f8da28065eaac3ed571d8375e4dbcdfc642367cf0a68914ef2ac70ea65443c5bd6bea29adf699cf'
 
 
   # Send a notification email when the user's password is changed
@@ -229,9 +227,8 @@ Devise.setup do |config|
   # "users/sessions/new". It's turned off by default because it's slower if you
   # are using only default views.
 
-   config.scoped_views = true
 
-  # config.scoped_views = true
+  config.scoped_views = true
 
 
   # Configure the default scope given to Warden. By default it's the first
